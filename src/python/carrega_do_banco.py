@@ -24,10 +24,8 @@ def importa_sql(query_sql, connection = connection):
     df = pd.read_sql_query(query, connection)
     return df
 
+#bases de dados no python
 anual_grupos = importa_sql( 'soma_sinistro_anual_per_group.sql' )
-
 anual_tipos = importa_sql( 'soma_sinistro_anual.sql' )
-
 claims = importa_sql( 'query_claims.sql' )
-
 coverage = importa_sql( 'coverage.sql' )
