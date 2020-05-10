@@ -25,13 +25,9 @@ def importa_sql(query_sql, connection = connection):
     return df
 
 anual_grupos = importa_sql( 'soma_sinistro_anual_per_group.sql' )
-print( anual_grupos.head() )
 
 anual_tipos = importa_sql( 'soma_sinistro_anual.sql' )
-print( anual_tipos.head() )
 
 claims = importa_sql( 'query_claims.sql' )
-print( claims.head() )
 
 coverage = importa_sql( 'coverage.sql' )
-print( coverage.head() )
