@@ -1,4 +1,5 @@
 SELECT 
+        count(*) as quantidade,
         avg( `Number of claims` ) as claims,
         CAST (count(*) AS FLOAT) / 
         CAST ( (select count(*) from Diseases_per_person) AS FLOAT) AS prob

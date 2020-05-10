@@ -16,9 +16,19 @@ engine = sqlalchemy.create_engine( str_connection )
 connection = engine.connect()
 
 #importa query
-with open( os.path.join(SQL_DIR, 'soma_sinistro_anual_per_group.sql') ) as query_file:
-    query = query_file.read()
+def importa_sql(query_sql, connection = connection):
 
-#anual_tipo = pd.read_sql_query(query, connection)
-#anual_tipo.head()
+    with open( os.path.join(SQL_DIR, query_sql) ) as query_file:
+        query = query_file.read()
 
+    df = pd.read_sql_query(query, connection)
+    return df
+
+anual_grupos = importa_sql( 'soma_sinistro_anual_per_group.sql' )
+print( anual_grupos.head() )
+
+anual_tipos = importa_sql( 'soma_sinistro_anual.sql' )
+print( anual_tipos.head() )
+
+claims = importa_sql( 'query_claims.sql' )
+print( claims.head() )
