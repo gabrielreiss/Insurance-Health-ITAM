@@ -32,3 +32,6 @@ print( anual_tipos.head() )
 
 claims = importa_sql( 'query_claims.sql' )
 print( claims.head() )
+
+coverage = importa_sql( 'coverage.sql' )
+print( coverage.head() )

@@ -12,6 +12,9 @@ Segundo a descrição, os dados estão relacionados ao seguro de saúde para um 
 - [x] Montar tabela de probabilidade por número de sinistros
 - [x] Montar tabela de soma de sinistros por ano, agrupadas por grupo
 - [x] Montar tabela de soma de sinistros por ano, agrupadas por grupo e tipo
-- [ ] Carregar os dados do banco para o python
+- [x] Carregar os dados do banco para o python
 - [ ] Exploração dos dados e gráficos
 - [ ] Cálculo do prêmio médio de risco para o ano de 2019
+
+## Teste de plot no github
+![svg](plots/teste.svg)
