@@ -17,5 +17,9 @@ Segundo a descrição, os dados estão relacionados ao seguro de saúde para um 
 - [ ] Cálculo do prêmio médio de risco para o ano de 2019
 
 ## Teste de plot no github
+<<<<<<< HEAD
 ![svg](plots/teste2.svg)
 ![png](plots/teste2.png)
+=======
+![SVG](plots/teste.svg)
+>>>>>>> 10ade380e628d0a14ddd5dd5d29106053f89a124
