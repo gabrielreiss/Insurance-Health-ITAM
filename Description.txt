@@ -1,0 +1,12 @@
+Context
+
+This dataset has been created and provided for Actuarial Science students, at ITAM (Mexico).
+
+The data is related to health insurance for a group of insurance policies. 
+This dataset includes also accidents coverage. Even though diseases are hard to classify, 
+this dataset is divided into 3 types: acute, sub-acute and chronic. 
+The group has 5 types of insureds, each group with different coverage modifications.
+
+Comments
+
+The data has been simulated based on expert judgment and designed for easily fitting actuarial models.
