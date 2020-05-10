@@ -18,3 +18,5 @@ Segundo a descrição, os dados estão relacionados ao seguro de saúde para um 
 
 ## Teste de plot no github
 ![Alt text](./plots/teste.svg)
+
+<img src="./plots/teste.svg>
