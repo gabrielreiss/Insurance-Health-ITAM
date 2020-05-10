@@ -36,5 +36,3 @@ for i in files_names:
     df.to_sql(  table_names,
                 connection,
                 if_exists= 'replace' )
-
-df = pd.read_csv( os.path.join( DATA_DIR, files_names[0] ) )
