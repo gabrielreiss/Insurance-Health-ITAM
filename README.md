@@ -19,3 +19,15 @@ Segundo a descrição, os dados estão relacionados ao seguro de saúde para um 
 ## Exploração dos dados
 
 ![svg](plots/claim_distribution.svg)
+![svg](plots/boxplot_por_grupo.svg)
+![svg](plots/boxplot_por_tipo.svg)
+
+![svg](plots/boxplot_por_grupo2015.svg)
+![svg](plots/boxplot_por_grupo2016.svg)
+![svg](plots/boxplot_por_grupo2017.svg)
+![svg](plots/boxplot_por_grupo2018.svg)
+
+![svg](plots/boxplot_por_tipo2015.svg)
+![svg](plots/boxplot_por_tipo2016.svg)
+![svg](plots/boxplot_por_tipo2017.svg)
+![svg](plots/boxplot_por_tipo2018.svg)

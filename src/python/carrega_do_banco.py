@@ -18,7 +18,7 @@ connection = engine.connect()
 #importa query
 def importa_sql(query_sql, connection = connection):
 
-    with open( os.path.join(SQL_DIR, query_sql) ) as query_file:
+    with open( os.path.join(SQL_DIR, query_sql), encoding= 'utf-8' ) as query_file:
         query = query_file.read()
 
     df = pd.read_sql_query(query, connection)
@@ -29,3 +29,4 @@ anual_grupos = importa_sql( 'soma_sinistro_anual_per_group.sql' )
 anual_tipos = importa_sql( 'soma_sinistro_anual.sql' )
 claims = importa_sql( 'query_claims.sql' )
 coverage = importa_sql( 'coverage.sql' )
+all_pagamentos = importa_sql( 'query_pagamentos_unificado.sql' )
