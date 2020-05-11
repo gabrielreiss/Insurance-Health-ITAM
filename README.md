@@ -17,6 +17,7 @@ Segundo a descrição, os dados estão relacionados ao seguro de saúde para um 
 - [x] Carregar os dados do banco para o python
 - [x] Exploração dos dados e gráficos 
 - [ ] Acrescentar texto decente na exploração dos dados
+- [ ] Acrescentar média de valores pagos por tipo e grupo de claim via sql
 - [ ] Cálculo do prêmio médio de risco para o ano de 2019
 
 ## Exploração dos dados
